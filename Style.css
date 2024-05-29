@@ -1,0 +1,483 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+main {
+    display: flex;
+    width: 100%;
+}
+
+body {
+    /* width: 100%; */
+    background-color: black;
+}
+
+.menu {
+    width: 13.3%;
+    height: 100vh;
+    background-color: black;
+    padding: 2rem 0 0 1.5rem;
+    position: fixed;
+    margin: 0;
+}
+
+.branco{
+    color: white;
+    font-family: "Quicksand", sans-serif;
+}
+
+.menu a {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+.LOGOO {
+    font-size: 2em;
+    font-family: "Quicksand", sans-serif;
+    width: 100%;
+}
+
+.menu ul {
+    margin: 3rem 1.6%;
+    /* border: solid white; */
+}
+
+.menu li {
+    margin-top: 1.2rem;
+    font-family: "Quicksand", sans-serif;
+}
+
+.menu a:hover {
+    transition: ease-in-out 1s;
+    color: #df0e62;
+}
+
+.inicio {
+    width: 90%;
+    height: 100vh;
+    margin-left: 13.33%;
+    display: flex;
+    background-image: url(img_9.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.welcome {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    backdrop-filter: brightness(50%);
+}
+
+.welcome h1 {
+    font-size: 4rem;
+    color: white;
+}
+
+.welcome p {
+    color: f0f0f0;
+    width: 815px;
+    font-size: 1.3em;
+}
+
+.welcome a {
+    text-decoration: none;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    border-radius: 30px;
+    width: 10rem;
+    height: 3rem;
+    background-color: #df0e62;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.inicio img {
+    width: 100%;
+    height: 100vh;
+}
+
+.fot {
+    width: 100%;
+}
+
+.line{
+    width: 86.7%;
+    height: 320px;
+    margin-left: 13.288%;
+    display: flex;
+    flex-direction: row;
+}
+
+.fotos {
+    height: 15rem;
+    width: 33.333%;
+    height: 100%;
+    margin: 3px;
+
+
+}
+
+.fotos img {
+    height: 100%;
+    width: 100%;
+
+}
+
+.fotos img:hover {
+    transition: ease-in 0.6s;
+    transform: scale(1.1);
+}
+
+.carousel {
+    width: 60%;
+    height: 70vh;
+    margin: 7rem 25%;
+}
+
+.carousel h2 {
+    color: white;
+    font-size: 4em;
+    margin: 0 33.13%;
+}
+
+.fotoRadius {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 1000rem;
+    margin: 5% 40% auto;
+}
+
+.fotoRadius img {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 1000rem;
+
+}
+
+.nome {
+    color: white;
+    font-weight: bold;
+    margin: 3% 46% auto;
+}
+
+.lorem {
+    color: #808080;
+    text-align: center;
+    font-size: 1.5em;
+    width: 50%;
+    margin: 1% 23.333%;
+}
+
+.biografia {
+    /* height: 130vh; */
+    width: 86.7%;
+    margin-left: 13.333%;
+    background-color: #1a1a1a;
+    padding-bottom: 7rem;
+
+}
+
+.biografia .titulo {
+    color: white;
+    font-size: 64px;
+    margin: 9rem 18rem 0;
+}
+
+.biografia img {
+    width: 377px;
+    height: 377.5px;
+    margin: 2rem 18rem;
+
+
+}
+
+.biografia .textWhite {
+    color: white;
+    margin: 1.5rem 18rem 0.5rem;
+    font-size: 2em;
+}
+
+.biografia p {
+    width: 47rem;
+    font-size: 1.2em;
+    color: #808080;
+    margin: 1rem 18rem;
+
+}
+
+.biografia a {
+    color: #DF0E62;
+}
+
+.biografia h3 {
+    font-size: 28px;
+    color: #fff;
+    margin: 1.5rem 18rem;
+}
+
+.biografia a:hover {
+    color: #96003c;
+    transition: ease-in 0.5s;
+}
+
+.verificacao {
+    display: flex;
+    flex-direction: row;
+    gap: 8rem;
+    margin: 1rem 18rem;
+}
+
+.verificacao ul {
+    list-style: none;
+    margin: 1rem 0;
+}
+
+.verificacao li {
+    margin: 1rem;
+    color: #808080;
+    font-size: 1rem;
+}
+
+.blog {
+    width: 86.6%;
+    margin-left: 13.4%;
+    padding: 7rem 0;
+}
+
+.blogger {
+    /* border: solid white; */
+    width: 60%;
+    /* height: 120vh; */
+    margin: 0 20%;
+    padding-left: 1rem;
+}
+
+.tituloBlog {
+    color: white;
+    font-size: 4rem;
+}
+.tema {
+    display: flex;
+    flex-direction: row;
+    /* border: solid 1px #f6f6f6; */
+    height: 25vh;
+    width: 80%;
+    margin-top: 2rem;
+    gap: 1.5rem;
+}
+
+.tema img {
+    width: 30%;
+    height: 22vh;
+    margin: 10px 0;
+}
+
+.textBlog {
+    /* background-color: #1a1a1a; */
+    height: 22vh;
+    width: 100%;
+    margin: 0.6rem 2rem;
+}
+
+.textBlog .tittleLink {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.textBlog .subtitulo {
+    color: #737373;
+    margin-bottom: 1rem;
+}
+
+.text {
+    color: #737373;
+    width: 28rem;
+}
+
+.subtitulo .data {
+    color: #DF0E62;
+}
+
+.subtitulo a:hover {
+    color: #ac0045;
+    transition: ease-out 0.5s;
+}
+
+.dark {
+    background-color: #DF0E62;
+    width: 100px;
+    height: 4px;
+}
+
+.numbers {
+    /* border: solid white; */
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.numero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 4rem;
+    background-color: #000000;
+    margin-left: 1rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    text-decoration: none;
+    color: #808080;
+}
+
+.numbers a {
+    color: #DF0E62;
+}
+
+#pontos {
+    color: #808080;
+}
+
+.numbers a:hover {
+    background-color: #DF0E62;
+    color: white;
+    transition: all 0.5s;
+}
+
+.contato {
+    width: 86.6%;
+    margin-left: 13.4%;
+    background-color: #1a1a1a;
+    height: 100vh;
+}
+
+.formulario {
+    width: 100%;
+    height: 100vh;
+    background-color: #1a1a1a;
+    padding: 7% 0 0 20%;
+}
+
+.formulario h2 {
+    color: white;
+    font-size: 4em;
+    padding-bottom: 2rem;
+}
+
+form label {
+    color: white;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+form {
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #808080;
+    background-color: transparent;
+    margin: 0.5rem;
+    padding: 6px 0;
+    color: white;
+    font-size: 1em;
+
+}
+
+form label {
+    margin: 0 0.5rem;
+}
+
+.linhaForm {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#iemail {
+    width: 100%;
+}
+
+.inputSo {
+    width: 97.5%;
+}
+
+textarea {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #808080;
+    background-color: transparent;
+    color: white;
+    font-size: 1.3em;
+    padding: 6px 6px;
+    resize: vertical;
+    width: 100%;
+}
+
+.segunda {
+    margin-left: 5rem;
+    width: 100%;
+}
+
+input:focus {
+    border-color: white;
+}
+
+textarea:focus {
+    border-color: white;
+}
+
+.fname {
+    width: 50%;
+}
+
+.lname {
+    width: 50%;
+    /* border: solid white; */
+}
+
+footer {
+    width: 86.6%;
+    margin-left: 13.4%;
+    /* border: solid white; */
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    color: #808080;
+
+}
+.textArea{
+    width: 100%;
+}
+.tittle{
+    font-family: "Oswald", sans-serif;
+}
+.contact{
+    font-family: "Quicksand", sans-serif;
+}
